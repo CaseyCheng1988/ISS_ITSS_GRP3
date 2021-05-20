@@ -14,6 +14,6 @@ ___
 # Perform rating classification
 * Launch the terminal inside the system folder.
 * Run the system using the following command:
-	* python main.py -i *<movie_path>*
+	* `python main.py -i *<movie_path>*`
 
 
