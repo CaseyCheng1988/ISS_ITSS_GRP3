@@ -13,7 +13,7 @@ ___
 * CD into the *pyAudioAnalysis* folder and install using the following command:
 	* `pip install -e .`
 * If necessary, downgrade h5py version to below 3.0.0
-	* `pip install hyp5==2.10.0`
+	* `pip install h5py==2.10.0`
 
 # Perform rating classification
 * Launch the terminal inside the system folder.
