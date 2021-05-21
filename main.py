@@ -32,6 +32,8 @@ MODEL_DIR = os.path.join(SYSTEM_DIR, 'models')  ## to put your models here
 print("Model directory: ", MODEL_DIR)
 
 TEMP_DIR = os.path.join(SYSTEM_DIR, 'temp')
+if not os.path.exists(TEMP_DIR):
+    os.makedirs(TEMP_DIR)
 
 RPN_MODEL = os.path.join(MODEL_DIR, 'final_rpn.pth')
 VIS_VIO_CLF_PATH = os.path.join(MODEL_DIR, 'model_c3d_v0815_daniel_depth40_400epoch.h5')
