@@ -8,8 +8,12 @@ ___
 	* `pip install -U get-video-properties`
 	* `pip install moviepy`
 	* `conda install -c pytorch pytorch=1.4.0`
+	* `conda install -c conda-forge opencv`
+	* `conda install pandas`
 * CD into the *pyAudioAnalysis* folder and install using the following command:
 	* `pip install -e .`
+* If necessary, downgrade h5py version to below 3.0.0
+	* `pip install hyp5==2.10.0`
 
 # Perform rating classification
 * Launch the terminal inside the system folder.
